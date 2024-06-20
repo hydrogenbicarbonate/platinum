@@ -1,5 +1,5 @@
 ---
-#Platinum
+# Platinum
 ---
 
 ## Stack-Based Virtual Machine Interpreter
