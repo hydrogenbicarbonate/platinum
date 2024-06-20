@@ -50,7 +50,7 @@ gcc src/ptvm.c -o build/ptvm -Wall -Wextra
 
 ### Example Program
 
-An example program is provided in the `program` array within `main.c`. It calculates the sum of 1 and 2, then prints the result:
+An example program is provided in the `program` array within `ptvm.c`. It calculates the sum of 1 and 2, then prints the result:
 
 ```c
 Inst program[] = {

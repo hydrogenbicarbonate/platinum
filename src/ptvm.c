@@ -9,7 +9,9 @@ typedef enum {
     INST_PUSH,
     INST_POP,
     INST_DUP,
+    INST_INDUP,
     INST_SWAP,
+    INST_INSWAP,
     INST_ADD,
     INST_SUB,
     INST_MUL,
@@ -38,7 +40,9 @@ typedef struct {
 #define DEF_INST_PUSH(x) {.type = INST_PUSH, .value = x}
 #define DEF_INST_POP() {.type = INST_POP}
 #define DEF_INST_DUP() {.type = INST_DUP}
+#define DEF_INST_INDUP() {.type = INST_INDUP}
 #define DEF_INST_SWAP() {.type = INST_SWAP}
+#define DEF_INST_INSWAP(x) {.type = INST_INSWAP, .value = x}
 #define DEF_INST_ADD() {.type = INST_ADD}
 #define DEF_INST_SUB() {.type = INST_SUB}
 #define DEF_INST_MUL() {.type = INST_MUL}
