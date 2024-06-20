@@ -1,7 +1,8 @@
-
+---
+#Platinum
 ---
 
-# Stack-Based Virtual Machine Interpreter
+## Stack-Based Virtual Machine Interpreter
 
 This project implements a simple stack-based virtual machine interpreter in C. The interpreter executes a predefined set of instructions stored in bytecode format and manipulates a stack to perform arithmetic operations and control flow.
 
