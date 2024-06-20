@@ -1,11 +1,12 @@
 ---
 # Platinum
----
+
 
 ## Stack-Based Virtual Machine Interpreter
 
 This project implements a simple stack-based virtual machine interpreter in C. The interpreter executes a predefined set of instructions stored in bytecode format and manipulates a stack to perform arithmetic operations and control flow.
 
+---
 ## Features
 
 - **Arithmetic Operations**: Addition, subtraction, multiplication, and division operations are supported.
@@ -73,10 +74,6 @@ Inst program[] = {
 ## Error Handling
 
 The interpreter includes basic error handling for stack underflow, stack overflow, division by zero, and out-of-bounds jumps.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
