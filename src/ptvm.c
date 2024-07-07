@@ -86,6 +86,14 @@ int pop(Machine *machine){
     return machine->stack[machine->stack_size];
 }
 
+void swap(Machine *machine, int index) {
+    if(index < machine->stack_size || index <= 0) {
+        fprintf(stderr,"ERROR: Index out of range");
+        exit(0);
+    }
+        
+}
+
 void print_stack(Machine *machine){
     printf("------ STACK\n");
     for(int i = machine->stack_size - 1; i >= 0; i--){
